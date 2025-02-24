@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.box {
+  width: 45vw;
+  max-width: 400px;
+  background-color: rgb(49, 190, 68);
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+label {
+  font-size: 18px;
+  display: block;
+}
