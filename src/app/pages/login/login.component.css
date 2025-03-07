@@ -1,0 +1,13 @@
+.box {
+  width: 300px;
+  padding: 30px;
+  background-color: #1d2840;
+  color: white;
+  .title {
+    font-size: 1.5rem;
+  }
+  .input {
+    width: 250px;
+    padding: 10px 5px;
+  }
+}
