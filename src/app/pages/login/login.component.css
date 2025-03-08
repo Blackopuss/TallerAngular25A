@@ -1,13 +1,67 @@
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box {
   width: 300px;
   padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
   background-color: #1d2840;
   color: white;
+
   .title {
     font-size: 1.5rem;
   }
+
   .input {
     width: 250px;
-    padding: 10px 5px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
   }
+  .btn {
+    margin-top: 5px;
+    padding: 10px 15px;
+    background: linear-gradient(45deg, rgb(228, 100, 243), rgb(153, 51, 255));
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    /* Texto */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    &:hover {
+      background: linear-gradient(45deg, rgb(153, 51, 255), rgb(228, 100, 243));
+      transform: scale(1.05);
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0px 0px 10px rgba(228, 100, 243, 0.8);
+    }
+  }
+}
+.minBox {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
